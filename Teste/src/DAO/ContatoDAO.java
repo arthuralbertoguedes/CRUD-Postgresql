@@ -52,7 +52,6 @@ public class ContatoDAO {
  			return null;
  		}
      }
-
      
      
      public void removerContato(int idContato) {
@@ -89,4 +88,6 @@ public class ContatoDAO {
 			e.printStackTrace();
 		}
      }
+     
+     
 }
