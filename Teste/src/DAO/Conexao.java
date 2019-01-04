@@ -11,7 +11,7 @@ public class Conexao {
      private String url = "jdbc:postgresql://localhost:5432/Agenda";
      private static Connection con = null;
      
-
+     //Funcao conectar ao Banco de dados
  	public Connection conectar() {
  		try {
  			Class.forName(driver);
